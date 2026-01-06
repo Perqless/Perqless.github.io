@@ -11,6 +11,17 @@
 <body>
   <h1>About Me</h1>
   <p>Timezone: AEST</p>
+  <p id="timeDiff"></p>
+  <script>
+    const myOffset = 10; // Sydney GMT+10
+    const visitorOffset = new Date().getTimezoneOffset() / -60;
+
+    const diff = visitorOffset - myOffset;
+    document.getElementById("timeDiff").innerText = 
+      diff === 0 
+        ? "We are in the same timezone!" 
+        : `You are ${Math.abs(diff)} hour(s) ${diff > 0 ? "ahead" : "behind"} me.`;
+  </script>
   <h2>Contact Me</h2>
   <p>Discord Username: "perqless"</p>
 </body>
