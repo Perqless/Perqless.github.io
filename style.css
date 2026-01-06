@@ -1,0 +1,26 @@
+body {
+  background: linear-gradient(to right, #1e3c72, #2a5298); /* nice gradient */
+  color: #ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* modern font */
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  color: #ffdd57;
+}
+
+a {
+  color: #ffd700;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+}
