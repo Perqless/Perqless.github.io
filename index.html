@@ -26,9 +26,9 @@
         const dateTimeString = `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;
 
         document.getElementById("currentTime").innerText = dateTimeString;
-
-        updateDateTime();
+        
         setInterval(updateDateTime, 1000);
+        updateDateTime();
       }
     </script>
     <p id="timeDiff"></p>
