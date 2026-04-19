@@ -35,19 +35,20 @@ layout: default
 
 ---
 
-## My Skills
-I work with the following tools and languages:
+## Technical Skills
 
+### Development & Scripting
+* **Languages:** Java, Kotlin, Python, Assembly
+* **Minecraft:** Plugin Development, Modding (Forge/Fabric), Skript
+* **Web:** HTML, CSS, and Markdown
+
+### Creative Media
 * Adobe Photoshop
 * Adobe Premiere Pro
-* Java
-* Minecraft Mods & Plugins
-* Kotlin
-* Python
-* Assembly
-* Windows
-* Ubuntu
-* HTML & CSS
+
+### Systems & OS
+* **Linux:** Primarily Ubuntu (can use other distros)
+* **Windows:** 7, 10, and 11
 
 ## Contact Me
 **Discord Username:** `perqless`
